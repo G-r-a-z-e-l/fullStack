@@ -3,7 +3,7 @@ const app = express();
 const users = require("./db/user.json");
 const fs = require("fs");
 const { v4: uuidv4 } = require('uuid');
-
+ 
 //get, post, pathc, delete => express methods
 //127.0.0.1:3000 => localhost:3000/home
 // get all => admin
